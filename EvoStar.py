@@ -398,7 +398,7 @@ def construction(nodeList: list[Node], nns: dict[int], snns: dict[int], iteratio
     
     ptr = 0
     num_nodes = len(sorted_candidates)
-    min_clusters_required = max(1, int(len(nodeList) / 1000000))
+    min_clusters_required = max(1, int(len(nodeList) / 10000000))
 
     while ptr < num_nodes:
         # Fast-forward to next unvisited node
@@ -543,7 +543,7 @@ class Record():
 
 
 class ExpMonitor():
-    def __init__(self, expId: str, algorithmName: str, storgePath="C:\\Users\\DELL\\OneDrive\\桌面\\dezh123"):
+    def __init__(self, expId: str, algorithmName: str, storgePath="xxxxxxxxxxxxxxxxxxxx"):
         self.task = None
         self.expId = expId
         self.algorithmName = algorithmName
@@ -666,7 +666,7 @@ def process_single_node(node, nodeList, current_roots, label, query_times, print
     return query_times, nodeList, current_roots, updated
 
 
-@ExpMonitor(expId='EVOSTAR', algorithmName='EVOSTAR', storgePath="C:\\Users\\DELL\\OneDrive\\桌面\\dezh123")
+@ExpMonitor(expId='EVOSTAR', algorithmName='EVOSTAR', storgePath="xxxxxxxxxxxxxxxxxxxxxx")
 def run(task: Task, data_override=None, n_parts = 1):
     global query_times
     global GLOBAL_DATA
@@ -745,7 +745,7 @@ def run(task: Task, data_override=None, n_parts = 1):
 
 
 def save_results_to_csv(dataName, query_counts, ari_values, nmi_values):
-    result_dir = "C:\\Users\\DELL\\OneDrive\\桌面\\论文\\WWW"
+    result_dir = "xxxxxxxxxxxxxxxxxxxxx"
     os.makedirs(result_dir, exist_ok=True)
     result_df = pd.DataFrame({
         ' ': query_counts,
@@ -774,8 +774,8 @@ def get_top_k_uncertain_nodes(nodes, top_k=10000000):
 
 if __name__ == '__main__':
     run_multi = 0
-    single_file_path = r"C:\Users\DELL\OneDrive\桌面\论文\Materials\mnist.csv"
-    multi_dir_path = r"D:\ALDP-master\data\datadata"
+    single_file_path = r"xxxxxxxxxxxxxxxx"
+    multi_dir_path = r"xxxxxxxxxxxxxxxxxxxxxx"
     cut = 0.19
     if run_multi == 1:
         path = multi_dir_path
