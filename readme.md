@@ -1,6 +1,6 @@
 # EvoStar: Structure-Guided Semi-Supervised Clustering via Evolving Star Network (SIGKDD 2026)
 
-> **EvoStar** is a highly scalable semi-supervised clustering framework that innovatively leverages a dynamically evolving, sparse hierarchical "star" topology to naturally integrate structural cues and human supervision. Driven by a lightweight pruning-grafting mechanism and active query prioritization, EvoStar achieves superior and robust clustering performance under tight constraint budgets, featuring exceptional **$O(n \log n)$** time and **$O(n)$** space complexity.
+> **EvoStar** is a highly scalable semi-supervised clustering framework that innovatively leverages a dynamically evolving, sparse hierarchical "star" topology to naturally integrate structural cues and human supervision. Driven by a lightweight pruning-grafting mechanism and active query prioritization, EvoStar achieves superior and robust clustering performance under tight constraint budgets, featuring exceptional **$O(n \log n)$** time and **$O(n)$** space complexity. Besides, EvoStar is a CPU-based algorithm.
 
 ---
 
