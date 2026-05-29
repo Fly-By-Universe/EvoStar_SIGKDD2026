@@ -42,3 +42,19 @@ Upon receiving user feedback (Must-Link or Cannot-Link), EvoStar avoids costly g
 
 * **Metrics:** Core evaluations are measured by Adjusted Rand Index (ARI) and Normalized Mutual Information (NMI).
 * **Baselines:** EvoStar consistently outperforms state-of-the-art kernel-based and matrix-based semi-supervised clustering methods under identical or tighter constraint budgets.
+* To further demonstrate EvoStar's scalability, we report the end-to-end runtime on each dataset.
+
+| Dataset | Total Time (s) |
+|---|---:|
+| tae | 0.06 |
+| sonar | 0.06 |
+| ionosphere | 0.06 |
+| musk | 0.13 |
+| mfeat_karhunen | 0.28 |
+| mfeat_zernike | 0.26 |
+| segment | 0.32 |
+| EEG | 3.31 |
+| mnist | 71.70 |
+| aloi | 65.63 |
+| covtype | 688.65 |
+| har | 250.00 |
